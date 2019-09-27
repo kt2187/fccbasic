@@ -15,7 +15,7 @@ function mutation(arr) {
       //Test if letter is in the first element
       //indexOf returns the index of an element in an array or -1 if the element isn't        in the array
       //Use toLowerCase method to ensure strings are same case
-    if (arr[0].toLowerCase().indexOf(arr[1][i].toLowerCase) === -1) {
+    if (arr[0].toLowerCase().indexOf(arr[1][i].toLowerCase()) === -1) {
         return false;
     }
     }
